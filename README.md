@@ -1,2 +1,4 @@
 # java
-Stepping stones in the Java Software Developer career paath.
+Java Software Developer challenges.
+Solving one challenges at a time.
+
