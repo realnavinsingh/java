@@ -22,9 +22,11 @@
 1. List.of("s1", "s2", "s3") : <strong>immutable list</strong> <br>
 2. Arrays.asList("s1", "s2", "s3") : <strong>fixed length list</strong> <br>
 <br>
-3. new ArrayList<>(Arrays.asList("s1", "s2", "s3")) : <strong>can grow and shrink</strong> <br>
-4. new ArrayList<>{{add("s1"); add("s2"); add("s3")) : <strong>can grow and shrink</strong> <br>
-5. Stream.of("val1", "val2").collect(Collectors.toList()) : <strong>can grow and shrink</strong> <br>
+3. new ArrayList < > (Arrays.asList("s1", "s2", "s3")) : <strong>can grow and shrink</strong> <br>
+4. new ArrayList < > {{add("s1"); add("s2"); add("s3")) : <strong>can grow and shrink</strong> <br>
+5. Stream.of("val1", "val2").collect(Collectors.toList()) : <strong>can grow and shrink</strong> <br><br>
+6. Set<String> setTextList = new HashSet < > (textList):    <strong>converting list to set</strong>
+
 <table>
     <tr>
         <td><strong>Property</strong></td>
@@ -58,4 +60,4 @@
     </tr>
 </table>
 <br> source: https://stackoverflow.com/questions/2889777/difference-between-hashmap-linkedhashmap-and-treemap
-<img src="https://i.stack.imgur.com/MtCX2.png">
+<img src="https://i.stack.imgur.com/MtCX2.png" />
