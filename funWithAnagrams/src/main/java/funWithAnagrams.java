@@ -29,6 +29,8 @@ public class funWithAnagrams {
         //"okpe"            => "ekop"               => reject
         //"ekop"            => "ekop"               => reject
 
+//region "using Map.putIfAbsent()"
+        /*
         Map<String, String> map = new HashMap<>();
         for(String s:text){
             char[] s_char = s.toCharArray();
@@ -42,5 +44,33 @@ public class funWithAnagrams {
         //sort the list
         Collections.sort(finalList);
         return finalList;
+        */
+//endregion
+
+//region "using two for-loop"
+
+    HashSet<String> setText = new HashSet<>(); //remove duplicate anagrams
+    for (String t:text){
+        char[] temp = t.toCharArray();
+        Arrays.sort(temp);  //without sorting anagram cannot be determined i.e. without sorting "cat" and "cta" are different element
+        setText.add(new String(temp)); //only adds unique elements
+    }
+
+    //map to original array element
+    List<String> filteredList = new ArrayList<String>();
+    for(String st:setText){ //sorted
+        for(String t:text){ //original
+            char[] temp = t.toCharArray();
+            Arrays.sort(temp);
+            if((new String(temp)).equals(st)){
+                filteredList.add(t);
+                break;  //find first match, leave other anagrams
+            }
+        }
+    }
+    Collections.sort(filteredList);
+    return filteredList;
+
+//endregion
     }
 }
