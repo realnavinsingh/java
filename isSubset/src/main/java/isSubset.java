@@ -23,8 +23,8 @@ class isSubset {
         System.out.println("Q: Is second array subset of first array?");
         System.out.println("-".repeat(50));
 
-        System.out.print("A: Flexible -> " + isSubsetFlexible(a,b) + "\n");
-        System.out.println("A: Strict -> " + isSubsetStrict(a,b) + "\n");
+        System.out.println("A: Flexible -> " + isSubsetFlexible(a,b) );
+        System.out.println("A: Strict -> " + isSubsetStrict(a,b) );
     }
     //flexible function: allows duplicates (only cares about the presence or absense of the element in second array not the number of elements)
     public static boolean isSubsetFlexible(int[] arr1, int[] arr2){
