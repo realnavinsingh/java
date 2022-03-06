@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9f15d9-c618-4b02-b67d-58c8c2f2c035" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sales.log" beforeDir="false" afterPath="$PROJECT_DIR$/Sales.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/view/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/view/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/view/Machine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/techelevator/view/Machine.class" afterDir="false" />
-    </list>
+    <list default="true" id="3a9f15d9-c618-4b02-b67d-58c8c2f2c035" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +58,7 @@
       <workItem from="1633301603922" duration="799000" />
       <workItem from="1633302548010" duration="16000" />
       <workItem from="1633537086783" duration="38000" />
+      <workItem from="1646540993690" duration="71000" />
     </task>
     <servers />
   </component>
